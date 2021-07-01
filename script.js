@@ -1,7 +1,8 @@
-var rowEl = document.querySelector(".row")
+var rowEl = document.querySelectorAll(".row")
+var colEl = document.querySelectorAll(".col-sm")
 // function createSchedule() {
 //     for (var i = 0; i < 8; i++) {
-//         $("body").append("<container>").append("<row>" + "ewrtwer" )
+//         $(".container").append("<.row> ewrtwer" )
 
 //     }
 // }
@@ -10,11 +11,27 @@ var rowEl = document.querySelector(".row")
 
 function colorSchedule() {
 
-    for (var i = 9; i < moment(k); i++) {
-        if (moment(k) < i)
-            rowEl.addClass(".past");
-        else if (moment(k) === i)
-            rowEl.addClass(".present");
-        else rowEl.addClass(".future");
+    console.log(rowEl[0]);
+    console.log(rowEl[1]);
+    console.log(rowEl[2]);
+    console.log(colEl[0]);
+    console.log(colEl[1]);
+    console.log(colEl);
+
+    rowArr = []
+    
+    for (var i = 9; i < moment("k"); i++) {
+
+        rowArr.push([row[i]])
+
+        if (moment().format("k") < i)
+            rowEl.classList.add("past");
+        else if (moment().format("k") === i)
+            colEl[i].classList.add("present");
+        else if (moment().format("k") > i)
+        rowEl[i].classList.add("future");
+        else alert(Error)
     }
 }
+
+colorSchedule();
