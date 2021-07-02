@@ -45,31 +45,31 @@ function saveSchedule () {
 
     
     localStorage.removeItem("notes9");
-    localStorage.setItem("notes9", JSON.parse(stringify(notes9)));
+    localStorage.setItem("notes9", JSON.stringify(notes9));
 
     localStorage.removeItem("notes10");
-    localStorage.setItem("notes10", JSON.parse(stringify(notes10)));
+    localStorage.setItem("notes10", JSON.stringify(notes10));
     
     localStorage.removeItem("notes11");
-    localStorage.setItem("notes11", JSON.parse(stringify(notes11)));
+    localStorage.setItem("notes11", JSON.stringify(notes11));
     
     localStorage.removeItem("notes12");
-    localStorage.setItem("notes12", JSON.parse(stringify(notes12)));
+    localStorage.setItem("notes12", JSON.stringify(notes12));
     
     localStorage.removeItem("notes1");
-    localStorage.setItem("notes1", JSON.parse(stringify(notes1)));
+    localStorage.setItem("notes1", JSON.stringify(notes1));
     
     localStorage.removeItem("notes2");
-    localStorage.setItem("notes2", JSON.parse(stringify(notes2)));
+    localStorage.setItem("notes2", JSON.stringify(notes2));
     
     localStorage.removeItem("notes3");
-    localStorage.setItem("notes3", JSON.parse(stringify(notes3)));
+    localStorage.setItem("notes3", JSON.stringify(notes3));
     
     localStorage.removeItem("notes4");
-    localStorage.setItem("notes4", JSON.parse(stringify(notes4)));
+    localStorage.setItem("notes4", JSON.stringify(notes4));
     
     localStorage.removeItem("notes5");
-    localStorage.setItem("notes5", JSON.parse(stringify(notes5)));
+    localStorage.setItem("notes5", JSON.stringify(notes5));
 
 }
 
