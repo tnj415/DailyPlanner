@@ -8,9 +8,11 @@ body {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
+    color: #000000 !important;
     border-left: 1px solid black;
     padding: 10px;
+    font-size: large;
+    font-weight: bold;
   }
   
   .jumbotron {
@@ -39,7 +41,11 @@ body {
   .hour {
     background-color: #ffffff;
     color: #000000;
+    font-size: large;
     border-top: 1px dashed #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .past {
@@ -57,16 +63,22 @@ body {
     color: white;
   }
   
-  .saveBtn {
-    border-left: 1px solid black;
+  .saveBtn, button {
+    font-size: large;
+    border-left: 2px solid black !important;
+    border-color: #06AED5;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
+  .saveBtn:hover {
+    font-size: 30px;
+    transition: all .1s ease-in-out;
+    color: black;
   }
   
